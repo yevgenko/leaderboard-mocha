@@ -1,0 +1,22 @@
+{
+  "name": "leaderboard-mocha-web-tests",
+  "preferGlobal": true,
+  "version": "0.0.1",
+  "author": "Yevgeniy A. Viktorov",
+  "dependencies": {
+    "phantomjs": "1.9.x",
+    "mocha-phantomjs": "2.0.x"
+  },
+  "analyze": false,
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-exec": "~0.4.0",
+    "grunt-bg-shell": "~2.0.1",
+    "grunt-contrib-watch": "~0.3.1"
+  },
+  "bundledDependencies": [],
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.8"
+  }
+}
