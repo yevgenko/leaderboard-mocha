@@ -1,19 +1,28 @@
 leaderboard-mocha
 =================
 
-Meteor leaderboard with some client side mocha tests
+Meteor leaderboard with some client side mocha tests and [Grunt][]
 
-This project was taken straight from http://meteor.com/examples/leaderboard.
-We then refactored a bit, added the 
-[meteor-mocha-web package](https://github.com/mad-eye/meteor-mocha-web), 
-and added a couple demo tests.
+This project was taken straight from https://github.com/mad-eye/meteor-mocha-web.
+And then a little enhanced to use with [Grunt][]
 
-To run it with tests, use:
+## Installation
+
+```bash
+npm -g install phantomjs
+npm -g install mocha-phantomjs
+cd tests
+npm install
 ```
-METEOR_MOCHA_TEST_DIR=tests mrt
+
+## Usage
+
+To run tests just use:
+```
+grunt # probably in a different terminal
 ```
 
-Notice that running it with a plain `mrt` command will run it without the
-tests.
+And now [Grunt][] will be watching your project files and re-run test whenever
+there is changes detected.
 
-Meteorite is required (instead of plain meteor) due the smart package dependencies.
+[Grunt]:http://gruntjs.com/
